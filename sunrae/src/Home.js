@@ -4,7 +4,7 @@ import React from "react";
 import "./Home.css";
 import Product from "./Product";
 
-var banner = require("../src/images/banner.jpg");
+var banner = require("../src/images/banner1.jpg");
 
 function Home() {
   return (
@@ -31,6 +31,14 @@ function Home() {
             {/*products */}
             <Product />
           </div>
+
+          <div className="home__row">
+            {/*products */}
+            <Product />
+            {/*products */}
+            <Product />
+          </div>
+
         </div>
       </div>
     </div>

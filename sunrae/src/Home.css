@@ -1,6 +1,6 @@
-.home__background{
-    background-color: rgba(206, 169, 121, 0.5);
-}
+/* .home__background{
+    border: 10px solid rgb(206, 169, 121);
+} */
 
 
 .home{
@@ -22,7 +22,7 @@
 .home__image{
     width: 100%;
     z-index: -1;
-    margin-bottom: -200px;
+    margin-bottom: -100px;
     /* margin-bottom: -75px; */
     mask-image: linear-gradient(to bottom, rgba(0,0,0, 1), rgba(0,0,0,0));
 }

@@ -3,9 +3,9 @@
 import React from "react";
 import "./Product.css";
 
-var product1 = require("../src/images/placeholder.png");
+var placeholder = require("../src/images/placeholder.png");
 
-function Product() {
+function Product({title, image, price, rating }) {
   return (
     <div className="product">
       <div className="product__info">
@@ -15,7 +15,7 @@ function Product() {
           <strong>19.99</strong>
         </p>
       </div>
-      <img className="product__image" src={product1} />
+      <img className="product__image" src={placeholder} />
       <div className="product__rating">
         <p>&#11088;</p>
         <p>&#11088;</p>
