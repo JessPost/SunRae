@@ -1,5 +1,4 @@
 //contains the navbar code
-
 import React from "react";
 import "./Header.css";
 import SearchTwoToneIcon from '@mui/icons-material/SearchTwoTone';
@@ -13,29 +12,29 @@ function Header() {
       <img className="header__logo" src={logo} />
 
       <div className="header__search">
-        <input className="header__searchInput" type="text"></input>
+        <input className="header__searchText" type="text"></input>
         <SearchTwoToneIcon className="header__searchIcon" />
       </div>
 
       <div className="header__nav">
         <div className="header__option">
-          <span className="header__optionLineOne">Hello,</span>
-          <span className="header__optionLineTwo">Sign In</span>
+          <span className="header__lineOne">Hello,</span>
+          <span className="header__lineTwo">Sign In</span>
         </div>
 
         <div className="header__option">
-          <span className="header__optionLineOne">Your</span>
-          <span className="header__optionLineTwo">Orders</span>
+          <span className="header__lineOne">Your</span>
+          <span className="header__lineTwo">Profile</span>
         </div>
 
         <div className="header__option">
-          <span className="header__optionLineOne">Your</span>
-          <span className="header__optionLineTwo">Profile</span>
+          <span className="header__lineOne">Your</span>
+          <span className="header__lineTwo">Orders</span>
         </div>
 
-        <div className="header__optionBasket">
+        <div className="header__optionCart">
           <ShoppingCartTwoToneIcon />
-          <span className="header__optionLineTwo header__basketCount">0</span>
+          <span className="header__cartQuantity">0</span>
         </div>
       </div>
     </div>

@@ -1,5 +1,4 @@
-//this contains the Home(body) code
-
+//this contains the body code
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
