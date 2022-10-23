@@ -1,15 +1,19 @@
 //contains the navbar code
 import React from "react";
 import "./Header.css";
-import SearchTwoToneIcon from '@mui/icons-material/SearchTwoTone';
+import SearchTwoToneIcon from "@mui/icons-material/SearchTwoTone";
 import ShoppingCartTwoToneIcon from "@mui/icons-material/ShoppingCartTwoTone";
+import { Link } from "react-router-dom";
+
 
 var logo = require("../src/images/logo.jpg");
 
 function Header() {
   return (
     <div className="header">
-      <img className="header__logo" src={logo} />
+      <Link to="/">
+        <img className="header__logo" src={logo} />
+      </Link>
 
       <div className="header__search">
         <input className="header__searchText" type="text"></input>
